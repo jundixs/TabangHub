@@ -1,3 +1,5 @@
+"use client";
+
 export default function Login() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-black">
@@ -69,7 +71,36 @@ export default function Login() {
                 Sign in
               </button>
             </div>
+
+            <div className="mt-6 flex justify-center space-x-4">
+              <a
+                href="https://mail.google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center p-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+              >
+                <img
+                  src="/images/gmail.png"
+                  alt="Google"
+                  className="h-6 w-6"
+                />
+              </a>
+
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center p-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+              >
+                <img
+                  src="/images/facebook.png"
+                  alt="Facebook"
+                  className="h-6 w-6"
+                />
+              </a>
+            </div>
           </form>
+
           <h1 className="text-center mt-4">
             Don’t have an account?{" "}
             <a href="./register" className="text-blue-600">
