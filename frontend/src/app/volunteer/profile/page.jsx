@@ -17,7 +17,7 @@ export default function Profile() {
           <div className="w-40 h-40 flex-shrink-0">
             {/* Ensure the profile picture is a circle */}
             <img
-              src="/images/choy.png" // Assuming the image is located in the public folder at /images
+              src="/images/choyax.jpg" // Assuming the image is located in the public folder at /images
               alt="Profile Picture"
               className="w-full h-full rounded-full object-cover border-4 border-gray-200"
             />
