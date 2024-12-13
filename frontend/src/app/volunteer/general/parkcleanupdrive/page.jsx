@@ -32,7 +32,7 @@ export default function ParkCleanup() {
       <AppBar position="static" sx={{ backgroundColor: "#2196f3" }}> {/* Blue color */}
         <Toolbar>
           <Typography variant="h6" sx={{ color: "#fff" }} className="font-bold">
-            Park Cleanup Drive
+            Park Cleanup Drives
           </Typography>
         </Toolbar>
       </AppBar>
