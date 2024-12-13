@@ -41,6 +41,9 @@ export default function Navbar() {
             <Grid item>
               <Button color="inherit">General</Button>
             </Grid>
+            <Grid item>
+              <Button color="inherit">Message</Button>
+            </Grid>
           </Grid>
 
           {/* Right-aligned profile icon */}
