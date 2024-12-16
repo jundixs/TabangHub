@@ -11,6 +11,7 @@ import Button from "@mui/material/Button";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
+import Link from "next/link";
 
 export default function Navbar() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -33,19 +34,21 @@ export default function Navbar() {
             component="div"
             sx={{ flexGrow: 1, fontWeight: "bold" }}
           >
+          <Link href="/volunteer/dashboard/">
             TabangHub
+          </Link>
           </Typography>
 
           {/* Center-aligned buttons */}
           <Grid container justifyContent="center" spacing={2} sx={{ flexGrow: 2 }}>
             <Grid item>
-              <Button color="inherit">Skill Matched</Button>
+              <Button color="inherit"><Link href="/volunteer/skillmatch">Skill Matched</Link></Button>
             </Grid>
             <Grid item>
-              <Button color="inherit">General</Button>
+              <Button color="inherit"><Link href="/volunteer/general">General</Link></Button>
             </Grid>
             <Grid item>
-              <Button color="inherit">Message</Button>
+              <Button color="inherit"><Link href="/organization/messaging">Message</Link></Button>
             </Grid>
           </Grid>
 

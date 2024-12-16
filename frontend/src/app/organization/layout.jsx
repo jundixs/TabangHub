@@ -22,6 +22,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import EventIcon from '@mui/icons-material/Event';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import HistoryIcon from '@mui/icons-material/History';
+import Link from 'next/link';
 
 const drawerWidth = 240;
 
@@ -96,7 +97,9 @@ export default function RootLayout({ children }) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
+          <Link href="/volunteer/dashboard/">
             TabangHub
+          </Link>
           </Typography>
         </Toolbar>
       </AppBarStyled>
