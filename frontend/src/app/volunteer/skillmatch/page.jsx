@@ -33,7 +33,7 @@ const events = [
     requiredSkills: ["Cleaning", "Gardening"],
     date: "2023-07-22",
     location: "Sunset Park",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/images/PCD.png",
     volunteersJoined: 12,
     maxVolunteers: 24
   },
@@ -66,7 +66,7 @@ const events = [
     requiredSkills: ["Animal Care", "Cleaning"],
     date: "2023-08-12",
     location: "Paws and Claws Animal Shelter",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/images/ASA.png",
     volunteersJoined: 15,
     maxVolunteers: 24
   }
